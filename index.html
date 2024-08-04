@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Educational Guidance System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        
+         <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="progress.html">Progress Tracking</a></li>
+                <li><a href="preferences.html">Preferences</a></li>
+                <li><a href="profile.html">Profile</a></li>
+
+            </ul>
+        </nav>
+<h1>Educational Guidance System</h1>
+        <p>Find curated resources for your desired career path</p>
+    </header>
+    
+    <main>
+
+        <section id="selection">
+            <h2>Select Your Career Path</h2>
+            <select id="career-path">
+                <option value="default">Choose a path...</option>
+                <option value="AI Engineer">AI Engineer</option>
+                <option value="Data Scientist">Data Scientist</option>
+                <option value="Web Developer">Web Developer</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+                <option value="Data Analyst">Data Analyst</option>
+                <option value="Java Programmer">Java Programmer</option>
+                <option value="Graphic Designer">Graphic Designer</option>
+                <option value="Architect">Architect</option>
+                <option value="Machine Learning Engineer">ML Engineer</option>
+                <option value="Civil Engineer">Civil Engineer</option>
+                <option value="Full stack Developer">Full stack Developer</option>
+                <option value="Content Writer">Content Writer</option>
+                <option value="Project Manager">Project Manager</option>
+                <!-- Add more career paths as needed -->
+            </select>
+            <button onclick="getResources()">Get Resources</button>
+        </section>
+        
+        <section id="resources">
+            <h2>Recommended Resources</h2>
+            <div id="resource-list"></div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 AI-Powered Educational Guidance System</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

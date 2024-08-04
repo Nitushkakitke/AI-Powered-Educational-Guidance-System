@@ -1,0 +1,141 @@
+course_id,course_name,career_path,rating
+1,Introduction to AI,AI Engineer,4.7
+2,Machine Learning Fundamentals,AI Engineer,4.5
+3,Deep Learning Specialization,AI Engineer,4.8
+4,AI Ethics and Society,AI Engineer,4.3
+5,AI in Healthcare,AI Engineer,4.6
+6,Neural Networks and Deep Learning,AI Engineer,4.7
+7,Reinforcement Learning,AI Engineer,4.4
+8,Computer Vision Basics,AI Engineer,4.5
+9,AI for Robotics,AI Engineer,4.6
+10,AI Capstone Project,AI Engineer,4.9
+11,Data Science Fundamentals,Data Scientist,4.6
+12,Python for Data Science,Data Scientist,4.8
+13,Data Analysis and Visualization,Data Scientist,4.5
+14,Machine Learning for Data Science,Data Scientist,4.7
+15,Statistics for Data Science,Data Scientist,4.4
+16,Big Data Analytics,Data Scientist,4.3
+17,Data Mining Techniques,Data Scientist,4.5
+18,Data Science with R,Data Scientist,4.6
+19,Advanced Data Science,Data Scientist,4.7
+20,Data Science Capstone,Data Scientist,4.9
+21,HTML & CSS Basics,Web Developer,4.2
+22,JavaScript Essentials,Web Developer,4.4
+23,Responsive Web Design,Web Developer,4.3
+24,Front-End Development with React,Web Developer,4.5
+25,Back-End Development with Node.js,Web Developer,4.6
+26,Full-Stack Web Development,Web Developer,4.7
+27,Web Security Fundamentals,Web Developer,4.4
+28,Building Modern Web Applications,Web Developer,4.6
+29,Web Development with Django,Web Developer,4.5
+30,Web Development Capstone,Web Developer,4.8
+31,Digital Marketing Basics,Digital Marketing,4.3
+32,SEO Fundamentals,Digital Marketing,4.4
+33,Social Media Marketing,Digital Marketing,4.5
+34,Content Marketing Strategies,Digital Marketing,4.6
+35,PPC Advertising Essentials,Digital Marketing,4.3
+36,Email Marketing Techniques,Digital Marketing,4.2
+37,Digital Analytics and Insights,Digital Marketing,4.4
+38,Branding in Digital Age,Digital Marketing,4.5
+39,Digital Marketing Strategies,Digital Marketing,4.7
+40,Digital Marketing Capstone,Digital Marketing,4.6
+41,Introduction to Data Analysis,Data Analyst,4.5
+42,Data Visualization Techniques,Data Analyst,4.6
+43,Excel for Data Analysis,Data Analyst,4.4
+44,SQL for Data Analysis,Data Analyst,4.7
+45,Data Cleaning and Preparation,Data Analyst,4.3
+46,Python for Data Analysis,Data Analyst,4.6
+47,Advanced Excel,Data Analyst,4.5
+48,Data Analysis with Power BI,Data Analyst,4.7
+49,Tableau for Data Analysis,Data Analyst,4.4
+50,Data Analyst Capstone,Data Analyst,4.8
+51,Java Programming Basics,Java Programmer,4.3
+52,Object-Oriented Programming in Java,Java Programmer,4.4
+53,Data Structures and Algorithms in Java,Java Programmer,4.6
+54,Java for Web Development,Java Programmer,4.5
+55,Java Advanced Features,Java Programmer,4.7
+56,Java Performance Tuning,Java Programmer,4.4
+57,Java Security Best Practices,Java Programmer,4.6
+58,Java Microservices,Java Programmer,4.5
+59,Java for Cloud Applications,Java Programmer,4.6
+60,Java Development Capstone,Java Programmer,4.7
+61,Graphic Design Principles,Graphic Designer,4.2
+62,Adobe Photoshop for Beginners,Graphic Designer,4.3
+63,Adobe Illustrator Essentials,Graphic Designer,4.5
+64,Typography and Layout Design,Graphic Designer,4.4
+65,Logo and Brand Identity Design,Graphic Designer,4.3
+66,UI/UX Design Fundamentals,Graphic Designer,4.6
+67,Motion Graphics with After Effects,Graphic Designer,4.7
+68,Digital Illustration,Graphic Designer,4.5
+69,Portfolio Development for Designers,Graphic Designer,4.6
+70,Graphic Design Capstone,Graphic Designer,4.7
+71,Introduction to Architecture,Architect,4.5
+72,Architectural Design Principles,Architect,4.6
+73,Building Information Modeling (BIM),Architect,4.4
+74,Sustainable Architecture,Architect,4.7
+75,Urban Planning and Design,Architect,4.5
+76,Interior Design Fundamentals,Architect,4.3
+77,Architectural Visualization,Architect,4.6
+78,Architectural Drafting Techniques,Architect,4.5
+79,Project Management for Architects,Architect,4.4
+80,Architecture Capstone,Architect,4.7
+81,Machine Learning Basics,Machine Learning Engineer,4.6
+82,Supervised Learning,Machine Learning Engineer,4.7
+83,Unsupervised Learning,Machine Learning Engineer,4.5
+84,Deep Learning with TensorFlow,Machine Learning Engineer,4.8
+85,Natural Language Processing,Machine Learning Engineer,4.7
+86,Machine Learning Model Deployment,Machine Learning Engineer,4.5
+87,Reinforcement Learning,Machine Learning Engineer,4.6
+88,Computer Vision with OpenCV,Machine Learning Engineer,4.7
+89,Time Series Analysis,Machine Learning Engineer,4.6
+90,Machine Learning Capstone,Machine Learning Engineer,4.8
+91,Civil Engineering Basics,Civil Engineer,4.3
+92,Structural Engineering,Civil Engineer,4.4
+93,Concrete Technology,Civil Engineer,4.5
+94,Geotechnical Engineering,Civil Engineer,4.3
+95,Transportation Engineering,Civil Engineer,4.6
+96,Water Resources Engineering,Civil Engineer,4.4
+97,Environmental Engineering,Civil Engineer,4.5
+98,Construction Project Management,Civil Engineer,4.6
+99,Surveying and Mapping,Civil Engineer,4.4
+100,Civil Engineering Capstone,Civil Engineer,4.7
+101,AutoCAD Essentials,Autocad Skill,4.3
+102,AutoCAD 2D Drafting,Autocad Skill,4.4
+103,AutoCAD 3D Modeling,Autocad Skill,4.5
+104,AutoCAD Advanced Techniques,Autocad Skill,4.6
+105,AutoCAD for Architectural Design,Autocad Skill,4.5
+106,AutoCAD for Civil Engineering,Autocad Skill,4.4
+107,AutoCAD Customization,Autocad Skill,4.5
+108,AutoCAD Electrical,Autocad Skill,4.4
+109,AutoCAD Mechanical,Autocad Skill,4.3
+110,AutoCAD Capstone,Autocad Skill,4.6
+111,Full-Stack Web Development,Full stack Developer,4.5
+112,Front-End Development with React,Full stack Developer,4.6
+113,Back-End Development with Node.js,Full stack Developer,4.5
+114,Web Application Security,Full stack Developer,4.6
+115,Database Design and Management,Full stack Developer,4.7
+116,RESTful API Development,Full stack Developer,4.8
+117,Modern JavaScript Frameworks,Full stack Developer,4.7
+118,DevOps for Web Developers,Full stack Developer,4.6
+119,Cloud Computing for Developers,Full stack Developer,4.7
+120,Full-Stack Development Capstone,Full stack Developer,4.8
+121,Content Writing for Beginners,Content Writer,4.2
+122,SEO Content Writing,Content Writer,4.4
+123,Copywriting for Web,Content Writer,4.3
+124,Blogging and Content Creation,Content Writer,4.5
+125,Creative Writing Techniques,Content Writer,4.4
+126,Technical Writing Essentials,Content Writer,4.3
+127,Writing for Social Media,Content Writer,4.5
+128,Editing and Proofreading,Content Writer,4.6
+129,Content Marketing Fundamentals,Content Writer,4.4
+130,Content Writing Capstone,Content Writer,4.5
+131,Project Management Essentials,Project Manager,4.3
+132,Agile Project Management,Project Manager,4.5
+133,Scrum Master Training,Project Manager,4.6
+134,Project Scheduling and Planning,Project Manager,4.4
+135,Cost Estimation and Budgeting,Project Manager,4.5
+136,Stakeholder Management,Project Manager,4.6
+137,Project Risk Management,Project Manager,4.5
+138,Quality Management in Projects,Project Manager,4.4
+139,Communication in Project Management,Project Manager,4.5
+140,Project Management Capstone,Project Manager,4.7

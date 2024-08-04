@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course and Module Completion</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* Style for the container holding the charts */
+        #chart-container {
+            display: flex; /* Align charts horizontally */
+            justify-content: space-around; /* Space out the charts */
+            flex-wrap: wrap; /* Allow wrapping if needed */
+            width: 90%; /* Adjust width as needed */
+            margin: auto; /* Center the container */
+            padding: 20px; /* Optional: Add padding */
+        }
+        .chart-box {
+            width: 300px; /* Set the desired width for each chart */
+            height: 300px; /* Set the desired height for each chart */
+            margin: 10px; /* Space between charts */
+            border: 1px solid #ddd; /* Optional: Add border */
+            padding: 10px; /* Optional: Add padding */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+        }
+    </style>
+</head>
+<body>
+    <div id="chart-container">
+        <div class="chart-box">
+            <canvas id="courseCompletionChart"></canvas>
+            <h3>Course Completion</h3>
+        </div>
+        <div class="chart-box">
+            <canvas id="module1Chart"></canvas>
+            <h3>Module 1 Completion</h3>
+        </div>
+        <div class="chart-box">
+            <canvas id="module2Chart"></canvas>
+            <h3>Module 2 Completion</h3>
+        </div>
+    </div>
+    <script>
+        var ctx1 = document.getElementById('courseCompletionChart').getContext('2d');
+        var courseCompletionChart = new Chart(ctx1, {
+            type: 'pie',
+            data: {
+                labels: ['Completed', 'Remaining'],
+                datasets: [{
+                    label: 'Course Completion',
+                    data: [70, 30],
+                    backgroundColor: [
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(255, 99, 132, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(255, 99, 132, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                    },
+                    tooltip: {
+                        enabled: true,
+                    }
+                }
+            }
+        });
+
+        var ctx2 = document.getElementById('module1Chart').getContext('2d');
+        var module1Chart = new Chart(ctx2, {
+            type: 'pie',
+            data: {
+                labels: ['Completed', 'Remaining'],
+                datasets: [{
+                    label: 'Module 1 Completion',
+                    data: [50, 50],
+                    backgroundColor: [
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                    },
+                    tooltip: {
+                        enabled: true,
+                    }
+                }
+            }
+        });
+
+        var ctx3 = document.getElementById('module2Chart').getContext('2d');
+        var module2Chart = new Chart(ctx3, {
+            type: 'pie',
+            data: {
+                labels: ['Completed', 'Remaining'],
+                datasets: [{
+                    label: 'Module 2 Completion',
+                    data: [85, 15],
+                    backgroundColor: [
+                        'rgba(255, 159, 64, 0.2)',
+                        'rgba(153, 102, 255, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 159, 64, 1)',
+                        'rgba(153, 102, 255, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                    },
+                    tooltip: {
+                        enabled: true,
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

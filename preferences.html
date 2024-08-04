@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferences - AI Powered Education Guidance System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        select, input[type="checkbox"] {
+            margin-bottom: 15px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .navbar {
+   
+   box-shadow: 0 4px 6px rgba(201, 193, 193, 0.1);
+   overflow: hidden;
+}
+
+.navbar ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-around;
+}
+
+.navbar li {
+   position: relative;
+}
+
+.navbar li a {
+   display: block;
+   color: rgb(221, 209, 209);
+   text-align: center;
+   padding: 16px 20px;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 500;
+   transition: color 0.3s ease-in-out;
+}
+
+.navbar li a:hover {
+   color: #ffcc00;
+}
+
+.navbar li a::before {
+   content: '';
+   position: absolute;
+   left: 50%;
+   bottom: 0;
+   height: 3px;
+   width: 0;
+   background-color: #ffcc00;
+   transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.navbar li a:hover::before {
+   width: 100%;
+   left: 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="quiz.html">Quiz</a></li>
+               <li><a href="feedback.html">Feedback</a></li>
+               <li><a href="progress.html">Progress Tracking</a></li>
+               <li><a href="preferences.html">Preferences</a></li>
+               <li><a href="profile.html">Profile</a></li>
+
+           </ul>
+       </nav>
+<h1>Preferences</h1>
+   </header>
+    <div class="container">
+        <section class="section">
+            <h2>Learning Style</h2>
+            <label><input type="checkbox" name="learningStyle" value="video"> Video Learning</label>
+            <label><input type="checkbox" name="learningStyle" value="ebooks"> eBooks</label>
+            <label><input type="checkbox" name="learningStyle" value="articles"> Articles</label>
+            <label><input type="checkbox" name="learningStyle" value="mix"> Mix</label>
+        </section>
+        <section class="section">
+            <h2>Career Options</h2>
+            <label for="careerOptions">Select your career path:</label>
+            <select id="careerOptions">
+                <option value="ai-engineer">AI Engineer</option>
+                <option value="data-scientist">Data Scientist</option>
+                <option value="software-developer">Software Developer</option>
+                <option value="cybersecurity">Cybersecurity Specialist</option>
+                <option value="product-manager">Product Manager</option>
+            </select>
+        </section>
+        <section class="section">
+            <h2>Level</h2>
+            <label for="level">Select your current level:</label>
+            <select id="level">
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="expert">Expert</option>
+            </select>
+        </section>
+        <section class="section">
+            <h2>Course Type</h2>
+            <label><input type="checkbox" name="courseType" value="certification"> Certification Courses</label>
+            <label><input type="checkbox" name="courseType" value="normal"> Normal Learning Paths</label>
+        </section>
+        <a href="#" class="btn" onclick="savePreferences()">Save Preferences</a>
+    </div>
+
+    <script>
+        function savePreferences() {
+            // Placeholder function for saving preferences
+            alert("Preferences saved!");
+        }
+    </script>
+</body>
+</html>
